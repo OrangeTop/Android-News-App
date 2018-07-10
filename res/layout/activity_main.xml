@@ -1,0 +1,76 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="4"
+    tools:context="com.example.sdau_news_main.MainActivity$PlaceholderFragment" >
+
+    <LinearLayout
+        android:id="@+id/cotent_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <!-- 顶 -->
+    </LinearLayout>
+
+   
+
+    <!-- 底部 -->
+
+    <LinearLayout
+        android:id="@+id/layout_button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="#FFFFFF" >
+
+        <RadioGroup
+            android:id="@+id/rg_home"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/rb_home"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawablePadding="10dp"
+                android:drawableTop="@drawable/selector_home"
+                android:gravity="center"
+                android:textColor="#B3B3B3"
+                android:textSize="15sp" />
+
+            <RadioButton
+                android:id="@+id/rb_love"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawablePadding="10dp"
+                android:drawableTop="@drawable/selector_love"
+                android:gravity="center"
+                android:textColor="#B3B3B3"
+                android:textSize="15sp" />
+
+            <RadioButton
+                android:id="@+id/rb_setting"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawablePadding="10dp"
+                android:drawableTop="@drawable/selector_setting"
+                android:gravity="center"
+                android:textColor="#B3B3B3"
+                android:textSize="15sp" />
+        </RadioGroup>
+    </LinearLayout>
+
+</RelativeLayout>
