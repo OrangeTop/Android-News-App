@@ -1,4 +1,4 @@
-#Android-News-App
+# Android-News-App
 
 这是大三下学期实训的时候，做的一个小型安卓新闻app
 
